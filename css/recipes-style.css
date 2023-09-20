@@ -23,6 +23,12 @@ body {
     width: 700px;
     height: auto;
 }
+
+#pepperoni-pizza-image {
+    width: 500px;
+    height: auto;
+}
+
 /* End of image section */
 .headings {
     color: darkolivegreen;
