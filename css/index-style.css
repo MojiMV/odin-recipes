@@ -1,0 +1,16 @@
+body {
+    background-color: azure;
+}
+
+.head {
+    font-family: serif, sans-serif;
+    text-align: center;
+    background-color: cyan;
+    font-weight: 800;
+}
+
+.main-list {
+    font-family: serif;
+    font-size: 24px;
+    font-weight: 600;
+}
