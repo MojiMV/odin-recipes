@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     background-color: azure;
 }
@@ -7,10 +17,26 @@ body {
     text-align: center;
     background-color: cyan;
     font-weight: 800;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 2px;
+    border: 1px solid darkcyan;
 }
 
 .main-list {
     font-family: serif;
     font-size: 24px;
     font-weight: 600;
+}
+
+.list-recipes {
+    margin: 50px;
+
+}
+
+.item:hover {
+    background-color: cadetblue;
+    color: black;
+
 }
