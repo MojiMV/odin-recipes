@@ -12,11 +12,22 @@ body {
     background-color: azure;
 }
 
+.body-container{
+    width: 70%;
+    margin: 0 auto;
+}
+
 .head {
     font-family: serif, sans-serif;
     text-align: center;
     background-color: cyan;
     font-weight: 800;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 2px;
+    border: 1px solid darkcyan;
 }
 
 .image-div {
@@ -47,15 +58,36 @@ body {
     font-size: 48px;
 }
 
+.description-container {
+    background-color: rgb(238, 221, 221);
+    border: 4px solid darkolivegreen;
+    margin: 30px;
+    padding: 10px;
+}
+
 .description {
     font-size: larger;
     font-family: sans-serif;
     font-weight: bold;
 }
 
+.ingredients-container {
+    background-color: rgb(238, 221, 221);
+    border: 4px solid darkolivegreen;
+    margin: 30px;
+    padding: 10px;
+}
+
 .ingredients {
     font-size: large;
     font-weight: bold;
+}
+
+.steps-container {
+    background-color: rgb(238, 221, 221);
+    border: 4px solid darkolivegreen;
+    margin: 30px;
+    padding: 10px;
 }
 
 .steps {
